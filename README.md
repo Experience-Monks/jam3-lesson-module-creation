@@ -34,6 +34,8 @@ hsl2rgb([0, 0.5, 0.5])
 
 We use floats (`0 .. 1`) and bare arrays since these will compose well with other modules and various functional paradigms.
 
+<sup>**Note:** You can find the finished module [here](https://github.com/mattdesl/float-hsl2rgb).</sup>
+
 ## setup
 
 Module names are lowercase and `dash-separated`. They are also unique, so make sure the name isn't already taken on npm!
