@@ -13,7 +13,7 @@ Once you're comfortable with the process, splitting code into its own module bec
 - [test runner](#test-runner)
 - [testing](#testing)
 - [automated testing](#automated-testing)
-- [README.md](#readme.md)
+- [README.md](#readmemd)
 - [GitHub repository](#github-repository)
 - [publishing to npm](#publishing-to-npm)
 - [maintenance](#maintenance)
