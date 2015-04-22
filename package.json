@@ -1,0 +1,43 @@
+{
+  "name": "jam3-lesson-module-creation",
+  "version": "1.0.0",
+  "description": "introduction to creating a new npm module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "module",
+    "npm",
+    "help",
+    "how",
+    "to",
+    "tutorial",
+    "guide",
+    "lesson",
+    "guides",
+    "tutorials",
+    "create",
+    "a",
+    "new",
+    "modules",
+    "modular",
+    "publish"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/jam3-lesson-module-creation.git"
+  },
+  "homepage": "https://github.com/mattdesl/jam3-lesson-module-creation",
+  "bugs": {
+    "url": "https://github.com/mattdesl/jam3-lesson-module-creation/issues"
+  }
+}
