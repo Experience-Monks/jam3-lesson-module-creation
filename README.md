@@ -25,7 +25,7 @@ So, you've got a great idea for a module? The first step is to search [npmjs.com
 
 But let's say your module is unique, or specific to your needs, or the existing modules are dangerous to depend on (i.e. broad scope, no tests). This is where you can make your own module.
 
-For this tutorial, we'll create a module that converts HSL to RGB values for a color picker. We can imagine an interface like this:
+For this tutorial, we'll create a module that [converts HSL to RGB](https://github.com/mattdesl/float-hsl2rgb) values for a color picker. We can imagine an interface like this:
 
 ```js
 hsl2rgb([0, 0.5, 0.5]) 
@@ -33,8 +33,6 @@ hsl2rgb([0, 0.5, 0.5])
 ```
 
 We use floats (`0 .. 1`) and bare arrays since these will compose well with other modules and various functional paradigms.
-
-<sup>**Note:** You can find the finished module [here](https://github.com/mattdesl/float-hsl2rgb).</sup>
 
 ## setup
 
