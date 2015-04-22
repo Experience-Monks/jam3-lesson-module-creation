@@ -16,7 +16,7 @@ Once you're comfortable with the process, splitting code into its own module bec
 - [README.md](#readme.md)
 - [GitHub repository](#github-repository)
 - [publishing to npm](#publishing-to-npm)
-- [maintenence](#maintenence)
+- [maintenance](#maintenance)
 - [further reading](#further-reading)
 
 ## first steps
@@ -287,7 +287,7 @@ npm publish
 
 <sup>**Note:** The [float-hsl2rgb](https://www.npmjs.com/package/float-hsl2rgb) module already exists on npm, so this is hypothetical.</sup>
 
-### maintainence
+### maintenance
 
 When you need to make changes to your module, make sure to use [semantic versioning](https://github.com/Jam3/jam3-lesson-module-basics#semantic-versioning). You can use the following commands to bump your module's version and create a new git tag:
 
