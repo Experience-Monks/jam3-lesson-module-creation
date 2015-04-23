@@ -275,7 +275,7 @@ This will create a new repository on your account and push your current folder t
 
 <sup>(The [float-hsl2rgb](https://www.npmjs.com/package/float-hsl2rgb) module already exists on npm, so this is hypothetical.)</sup>
 
-The final step is to publish the module to npm. The first you do this, you'll need to create an account:
+The final step is to publish the module to npm. The first time around, you'll need to create an account:
 
 ```sh
 npm adduser
