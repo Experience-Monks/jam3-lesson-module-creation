@@ -65,7 +65,7 @@ touch index.js
 ```
 <sup>**Note:** In `package.json`, the `"index"` field must point to this file!</sup>
 
-Now open the file in your editor, and stub out our functionality:
+Now open the file in your editor, and copy the following method stub:
 
 ```js
 function hsl2rgb(hsl) {
@@ -211,7 +211,7 @@ npm install tape --save-dev
 
 This will save the result into `node_modules/tape`. The `--save-dev` flag updates our `package.json` with the new module. 
 
-Since this is only used for testing, we are saving it as a `"devDependency"`. If our module needs another module to run, we would list it as a `"dependency"` and use the `--save` flag instead.
+Since this is only used for testing, we are saving it as a `"devDependency"`. If our `index.js` depended on another module to work, we would list it as a `"dependency"` and use the `--save` flag instead.
 
 We can change the `test.js` file to the following:
 
@@ -245,9 +245,7 @@ You can see an example readme [here](https://github.com/mattdesl/float-hsl2rgb/b
 
 ### GitHub repository
 
-Next, we can make a new GitHub repository for our module. This tutorial will not go into details, but there are some tools that can help speed up this process. For example: [ghrepo](https://github.com/mattdesl/ghrepo).
-
-Before we make our repository, make sure to include a `.gitignore` file:
+Next, we can make a new GitHub repository for our module. Before we make our repository, make sure to include a `.gitignore` file:
 
 ```
 node_modules
@@ -257,35 +255,40 @@ node_modules
 
 <sup>**Tip:** Copy the above and run `pbpaste > .gitignore` to create a new file.</sup>
 
+For a quick way to publish a new repository, you can use [ghrepo](https://github.com/mattdesl/ghrepo) which is geared toward npm modules. Install it like so:
+
 ```sh
 npm install ghrepo -g
 ```
 
-Then:
+Then run it in your module folder:
 
 ```sh
 ghrepo -m 'first commit'
 ```
 
-This will create a new repository and push your current folder to it. 
+This will create a new repository on your account and push your current folder to it. 
 
 ![github](http://i.imgur.com/ZEIMuoF.png)
 
 ### publishing to npm
 
-The final step is to publish the module to npm. The first time around, you need to create an account:
+<sup>(The [float-hsl2rgb](https://www.npmjs.com/package/float-hsl2rgb) module already exists on npm, so this is hypothetical.)</sup>
+
+The final step is to publish the module to npm. The first you do this, you'll need to create an account:
 
 ```sh
 npm adduser
 ```
 
-Now you can publish the module to the database like so:
+Now you can publish the module to the npm database like so:
 
 ```sh
 npm publish
 ```
 
-<sup>**Note:** The [float-hsl2rgb](https://www.npmjs.com/package/float-hsl2rgb) module already exists on npm, so this is hypothetical.</sup>
+And it should be live on npmjs.com:  
+https://www.npmjs.com/package/float-hsl2rgb
 
 ### maintenance
 

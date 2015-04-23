@@ -34,10 +34,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattdesl/jam3-lesson-module-creation.git"
+    "url": "git://github.com/Jam3/jam3-lesson-module-creation.git"
   },
-  "homepage": "https://github.com/mattdesl/jam3-lesson-module-creation",
+  "homepage": "https://github.com/Jam3/jam3-lesson-module-creation",
   "bugs": {
-    "url": "https://github.com/mattdesl/jam3-lesson-module-creation/issues"
+    "url": "https://github.com/Jam3/jam3-lesson-module-creation/issues"
   }
 }
