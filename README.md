@@ -1,6 +1,6 @@
 # Creating a Module
 
-This is a continuation of the [module basics](https://github.com/Jam3/jam3-lesson-module-basics) lesson. Here we'll learn the basics of creating an npm module, working with Node requires, and publishing to npm.
+This is a continuation of the [module basics](https://github.com/Jam3/jam3-lesson-module-basics) lesson. Here we'll learn to write a new module, work with Node's CommonJS syntax, and publish the code to npm.
 
 ## steps
 
@@ -81,7 +81,7 @@ function hsl2rgb(hsl) {
 module.exports = hsl2rgb;
 ```
 
-Here the `module.exports` is telling Node that our default export is the `hsl2rgb` function. You can export anything with this: like a string, or an object, or a class. 
+Node uses CommonJS as its module syntax. Here the `module.exports` is telling Node that our default export is the `hsl2rgb` function. You can export anything with this: like a string, or an object, or a class. 
 
 Now, when somebody installs our module, they will *require* it like so:
 
