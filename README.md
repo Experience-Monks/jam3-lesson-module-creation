@@ -1,3 +1,7 @@
+##### [jam3-lesson](https://github.com/Jam3/jam3-lesson) » module-creation
+
+---
+
 # Creating a Module
 
 This is a continuation of the [module basics](https://github.com/Jam3/jam3-lesson-module-basics) lesson. Here we'll learn to write a new module, work with Node's CommonJS syntax, and publish the code to npm.
