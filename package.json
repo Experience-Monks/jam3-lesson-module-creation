@@ -1,6 +1,6 @@
 {
   "name": "jam3-lesson-module-creation",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "introduction to creating a new npm module",
   "main": "index.js",
   "license": "MIT",
